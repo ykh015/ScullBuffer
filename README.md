@@ -1,10 +1,8 @@
 Compiling and installing the scullpipe devices:
 --------------------------------------------------
-1. Execute Make: 
-   make
-2. Run install:
+1. Run install:
    ./install.sh
-   This unloads previous driver, loads new driver and assigns permissions 777 to the devices.
+   This unloads previous driver, does MakeFile, loads new driver and assigns permissions 777 to the devices.
    NOTE: You might be asked root password as sudo command is used in the shell script.
 
 Testing the functioning of scull pipe devices:
